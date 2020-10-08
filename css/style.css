@@ -149,6 +149,20 @@ main section:nth-child(2) [class*="col-"] > p {
 /* <!-- CAROUSELLLLLLLLLLL --> */
 
 .carousel {
-  /* padding: 50px; */
+  margin: 40px 0;
 
+}
+
+.carousel .dots {
+  display: inline-block;
+  color: #1069FF;
+  font-size: 10px;
+}
+
+/* features subsection */
+
+main section:nth-child(3) .row:nth-child(2) {
+  text-align: left;
+  padding: 0 30px;
+  font-weight: 500;
 }
