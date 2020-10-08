@@ -50,10 +50,18 @@ header.all-width_ {
   background-size: cover;
   height: 400px;
   background-position: bottom;
+  color: white;
 
+}
+
+header .row:first-child {
+  padding: 30px 0;
 }
 
 .bianco {
   background-color: white;
-  height: 100px;
+  /* height: 100px; */
+  border-radius: 5px;
+  color: black;
+
 }
