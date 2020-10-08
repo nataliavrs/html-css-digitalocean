@@ -19,11 +19,11 @@ body {
   /* margin: auto; */
   /* border: solid black 1px; */
   /* margin: auto; */
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 .col-md-12 {
-  height: 100px;
+  /* height: 100px; */
   border: solid black 1px;
 }
 
@@ -32,14 +32,10 @@ body {
 }
 
 .col-md-6 {
-  background-color: pink;
-  height: 100px;
+  /* background-color: pink; */
+  /* height: 100px; */
   border: solid black 1px;
 
-}
-
-.bianco {
-  background-color: white;
 }
 
 
@@ -55,5 +51,9 @@ header.all-width_ {
   height: 400px;
   background-position: bottom;
 
+}
 
+.bianco {
+  background-color: white;
+  height: 100px;
 }
