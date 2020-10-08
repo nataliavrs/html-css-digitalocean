@@ -1,3 +1,5 @@
+/****** GENERAL RULES ******/
+
 body {
 
 }
@@ -6,17 +8,14 @@ body {
 
 }
 
+/****** DEBUG RULES ******/
 
-/* navbar */
-
-.navbar {
-  background-color: red;
+.navbar.all-width_ {
+  background-color: white;
   border: 0;
   border-radius: 0;
+  margin-bottom: 0;
 }
-
-
-
 
 
 .all-width_ {
@@ -40,9 +39,16 @@ body {
   background-color: pink;
   height: 100px;
   border: solid black 1px;
-  
+
 }
 
 .bianco {
   background-color: white;
 }
+
+
+/****** NAVIGATION SECTION ******/
+
+
+
+/****** HEADER SECTION ******/
