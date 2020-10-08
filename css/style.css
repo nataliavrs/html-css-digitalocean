@@ -1,0 +1,31 @@
+body {
+
+}
+
+.container-fluid {
+  background-color: blue;
+}
+
+.all-width_ {
+  padding: 0 10%;
+  border: solid black 4px;
+  /* margin: auto; */
+  background-color: blue;
+}
+
+.col-md-12 {
+  height: 100px;
+  background-color: blue;
+  border: solid black 1px;
+}
+
+.row {
+  /* height: 100px; */
+}
+
+.col-md-6 {
+  background-color: pink;
+  height: 100px;
+  border: solid black 1px;
+
+}
