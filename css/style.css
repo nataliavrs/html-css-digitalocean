@@ -159,6 +159,50 @@ main section:nth-child(2) [class*="col-"] > p {
   font-size: 10px;
 }
 
+.carousel-control {
+  background-image: none !important;
+  color: rgb(14,13,111);
+  opacity: inherit;
+
+}
+
+.carousel-control.right {
+  right:  -80px;
+
+}
+
+.carousel-control.left {
+  left: -80px;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+
+}
+
+.carousel-indicators .active {
+  background-color: rgb(24, 128, 255) !important;
+}
+
+.carousel-indicators li  {
+  border: solid 1px rgb(24, 128, 255) !important;
+}
+
+.carousel-caption {
+  position: static;
+  bottom: 40px;
+  color: rgb(14,13,111);
+
+}
+
 /*** features subsection ***/
 
 main section:nth-child(3) .row:nth-child(2) {
@@ -179,4 +223,44 @@ main section:nth-child(4) {
 main section:nth-child(4) table td:last-child {
   font-weight: 600;
   color: #03dffc;
+}
+
+/** development subsection **/
+
+main section:nth-child(5) {
+  background-color: #F3F5F9;
+  color: #031C4E;
+  padding: 50px 0;
+
+}
+
+.carousel-myitem {
+  padding: 30px 30px;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+
+.carousel-myitem h3 {
+  color: #75809A;
+  font-size: 20px;
+}
+
+/** get started subsection **/
+
+main section:nth-child(6) {
+  background: linear-gradient(0deg, rgba(14,13,111,1) 8%, rgba(7,71,197,1) 50%);
+  color: white;
+  padding: 50px 0;
+}
+
+main section:nth-child(6) .btn {
+  color: rgb(24, 128, 255);
+  font-weight: 500;
+  background-color: white;
+  margin: 10px 0;
+}
+
+main section:nth-child(6) h1 {
+  font-size: 28px;
 }
