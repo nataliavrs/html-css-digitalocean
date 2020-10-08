@@ -4,10 +4,6 @@ body {
 
 }
 
-.container-fluid {
-
-}
-
 /****** DEBUG RULES ******/
 
 .navbar.all-width_ {
@@ -52,3 +48,12 @@ body {
 
 
 /****** HEADER SECTION ******/
+
+header.all-width_ {
+  background-image: url("../img/bg-home.jpg");
+  background-size: cover;
+  height: 400px;
+  background-position: bottom;
+
+
+}
