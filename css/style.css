@@ -115,3 +115,14 @@ header section:nth-child(2) .img-responsive {
 /***** MAIN SECTION *****/
 
 /* deploy subsection */
+
+main section:first-child .row:nth-child(2) [class*="col-md-2"] {
+  color: #75809A;
+  border-left: solid 2px #75809A;
+  padding: 0 5px;
+
+}
+
+main section:first-child .col-md-3 {
+  /* font-size: 10px */
+}
