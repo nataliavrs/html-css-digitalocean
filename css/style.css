@@ -146,7 +146,7 @@ main section:nth-child(2) [class*="col-"] > p {
   font-weight: 500;
 }
 
-/* <!-- CAROUSELLLLLLLLLLL --> */
+/* carousel */
 
 .carousel {
   margin: 40px 0;
@@ -159,10 +159,19 @@ main section:nth-child(2) [class*="col-"] > p {
   font-size: 10px;
 }
 
-/* features subsection */
+/*** features subsection ***/
 
 main section:nth-child(3) .row:nth-child(2) {
   text-align: left;
-  padding: 0 30px;
+  /* padding: 0 100px; */
   font-weight: 500;
+}
+
+/*** service subsection ***/
+
+main section:nth-child(4) {
+  background: rgb(14,13,111);
+  background: linear-gradient(0deg, rgba(14,13,111,1) 8%, rgba(7,71,197,1) 50%);
+  color: white;
+
 }
