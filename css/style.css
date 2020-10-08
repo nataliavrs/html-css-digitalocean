@@ -19,7 +19,7 @@ body {
 }
 
 [class*="col-"] {
-  border: solid pink 1px;
+  /* border: solid pink 1px; */
 }
 
 
