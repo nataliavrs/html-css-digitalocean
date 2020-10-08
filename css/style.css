@@ -175,3 +175,8 @@ main section:nth-child(4) {
   color: white;
 
 }
+
+main section:nth-child(4) table td:last-child {
+  font-weight: 600;
+  color: #03dffc;
+}
