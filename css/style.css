@@ -264,3 +264,24 @@ main section:nth-child(6) .btn {
 main section:nth-child(6) h1 {
   font-size: 28px;
 }
+
+/***** FOOTER SECTION *****/
+
+footer {
+  padding: 100px 0;
+  background-color: #031C4E;
+  color: #75809A;
+
+}
+
+footer ul {
+  list-style: none;
+  text-transform: capitalize;
+  padding-inline-start: 0px;
+  padding: 10px 0;
+}
+
+footer ul > li:first-child {
+  color: white;
+  font-weight: 600;
+}
