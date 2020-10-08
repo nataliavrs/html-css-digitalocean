@@ -45,10 +45,12 @@ body {
 
 /****** HEADER SECTION ******/
 
+/* jumbotron text & bg */
+
 header.all-width_ {
   background-image: url("../img/bg-home.jpg");
   background-size: cover;
-  height: 400px;
+  /* height: 400px; */
   background-position: bottom;
   color: white;
 
@@ -65,3 +67,5 @@ header .row:first-child {
   color: black;
 
 }
+
+/* jumbotron form */
