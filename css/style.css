@@ -7,21 +7,8 @@ body {
 
 .all-width {
   padding: 0 10%;
-  /* margin: auto; */
-  /* border: solid black 1px; */
-  /* background-color: blue; */
+
 }
-
-/****** DEBUG RULES ******/
-
-.row {
-  /* height: 500px; */
-}
-
-[class*="col-"] {
-  /* border: solid pink 1px; */
-}
-
 
 /****** NAVIGATION SECTION ******/
 
@@ -38,6 +25,16 @@ body {
 .navbar-default .navbar-nav>li>a {
   color: #031C4E;
   font-weight: 500;
+}
+
+.navbar-default .navbar-nav>.sign>a {
+  color: #1069FF;
+  border: solid 1px #1069FF;
+  padding: 6px 10px;
+  border-radius: 5px;
+  vertical-align: middle;
+  margin-top: 9px;
+
 }
 
 
@@ -62,7 +59,7 @@ header section:first-child {
 /* jumbotron text */
 
 .jumbotron [class*="col-"]:first-child {
-  /* padding: 100px 0; */
+
 }
 
 
@@ -70,7 +67,6 @@ header section:first-child {
 
 .jumbotron [class*="col-"]:nth-child(2) div {
   background-color: white;
-  /* height: 100px; */
   border-radius: 4px;
   color: #031C4E;
   padding: 10px 0;
@@ -78,6 +74,22 @@ header section:first-child {
 
 .jumbotron [class*="col-"]:nth-child(2) span {
   color: #1069FF;
+}
+
+.jumbotron [class*="col-"]:nth-child(2) .form-group {
+  padding: 0 20px;
+}
+
+.jumbotron [class*="col-"]:nth-child(2) .btn-block {
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.jumbotron [class*="col-"]:nth-child(2) .btn-block>img {
+  width: 20px;
+  float: left;
+
 }
 
 /* logos row */
@@ -116,9 +128,15 @@ header section:nth-child(2) .img-responsive {
 
 /*** deploy subsection ***/
 
+main section:first-child {
+  padding: 60px 10% 60px 10%;
+}
+
+
 main section:first-child [class*="col-"] > p {
   color: #75809A;
   font-weight: 500;
+
 }
 
 main section:first-child .row:nth-child(2) [class*="col-md-2"] {
@@ -137,6 +155,7 @@ main section:first-child .text-center > div > p {
 
 main section:nth-child(2) {
   background-color: #F3F5F9;
+  padding: 50px 0;
 }
 
 
@@ -205,9 +224,12 @@ main section:nth-child(2) [class*="col-"] > p {
 
 /*** features subsection ***/
 
+main section:nth-child(3) {
+  padding: 60px 10% 60px 10%;
+}
+
 main section:nth-child(3) .row:nth-child(2) {
   text-align: left;
-  /* padding: 0 100px; */
   font-weight: 500;
 }
 
