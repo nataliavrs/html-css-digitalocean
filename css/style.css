@@ -12,6 +12,7 @@ body {
 
 /****** NAVIGATION SECTION ******/
 
+
 .navbar.navbar-default {
   background-color: white;
   position: fixed;
@@ -25,6 +26,7 @@ body {
 .navbar-default .navbar-nav>li>a {
   color: #031C4E;
   font-weight: 500;
+  padding: 15px 10px;
 }
 
 .navbar-default .navbar-nav>.sign>a {
@@ -128,6 +130,15 @@ header section:nth-child(2) .img-responsive {
 
 /*** deploy subsection ***/
 
+@media all and (min-width:766px) {
+
+  .col-md-8 > .row > [class*="col-md-6"] {
+    min-height: 220px;
+
+  }
+}
+
+
 main section:first-child {
   padding: 60px 10% 60px 10%;
 }
@@ -139,7 +150,7 @@ main section:first-child [class*="col-"] > p {
 
 }
 
-main section:first-child .row:nth-child(2) [class*="col-md-2"] {
+main section:first-child .row:nth-child(2) [class*="col-md-4"] {
   color: #75809A;
   border-left: solid 2px #75809A;
   padding: 0 5px;
